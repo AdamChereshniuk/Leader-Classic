@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
     <title>Leader Classic</title>
 </head>
 <body>
@@ -15,23 +16,26 @@
                     <a href="/" class="header-left__logo">
                         <img src="./assets/img/Header/logo.svg" alt="Лого">
                     </a>
-                    <div class="header-left__lang">
-                        <img src="./assets/img/Header/ru_lang.svg" alt="RU">
-                        <span>
-                            RU
-                            <img src="./assets/img/Header/down_arrow.svg" alt="Стрелка">
-                        </span>
-                    </div>
                 </div>
                 <div class="header__nav">
                     <ul class="header__list">
-                        <li class="header__item">Тарифы</li>
-                        <li class="header__item">Бонус</li>
-                        <li class="header__item">Тарифы</li>
-                        <li class="header__item accent">Контакты ✨</li>
+                        <li class="header__item">
+                            <a href="#main">Главная</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#bonus">Бонус</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#faq">FAQ</a>
+                        </li>
+                        <li class="header__item accent">
+                            <a href="#footer">Контакты ✨</a>
+                        </li>
                     </ul>
                 </div>
-                <button class="header__btn btn">Открыть счёт</button>
+                <button class="header__btn btn">
+                    <a href="#request">Открыть счёт</a>
+                </button>
             </div>
         </div>
     </header>
@@ -51,7 +55,7 @@
             </div>
         </div>
     </section>
-    <section class="hero-section">
+    <section class="hero-section" id="main">
         <div class="container">
             <div class="hero__inner">
                 <h1 class="hero__title">ТОП-5 акций с доходностью до 10-30% уже в 2022 году</h1>
@@ -61,8 +65,10 @@
                     <li class="hero__text">Поддержка в чате 24/7</li>
                 </ul>
                 <div class="hero__btns">
-                    <button class="hero__download-btn btn">Скачать ТОП-5 акций</button>
-                    <button class="hero__open-btn border-btn">Открыть счёт</button>
+                    <button class="hero__btn hero__download-btn btn">Скачать ТОП-5 акций</button>
+                    <button class="hero__btn hero__open-btn border-btn">
+                        <a href="#request">Открыть счёт</a>
+                    </button>
                 </div>
                 <div class="hero-bottom">
                     <ul class="hero-bottom__list">
@@ -165,15 +171,19 @@
             </ul>
         </div>
     </section>
-    <section class="bonus-section">
+    <section class="bonus-section" id="bonus">
         <div class="container">
             <div class="bonus__inner">
                 <h3 class="bonus__suptitle">БОНУС</h3>
                 <h2 class="bonus__title">Каждый достоин второго шанса</h2>
                 <p class="bonus__text">Купите свои первые акции без риска, мы вернем вам 100$ на счет в случае проигрыша</p>
                 <div class="bonus__btns">
-                    <button class="bonus__get-btn btn">Получить бонус</button>
-                    <button class="bonus__open-btn border-btn">Открыть демо-счёт</button>
+                    <button class="bonus__btn bonus__get-btn btn">
+                        <a href="#request">Получить бонус</a>
+                    </button>
+                    <button class="bonus__btn bonus__open-btn border-btn">
+                        <a href="#request">Открыть демо-счёт</a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -186,49 +196,41 @@
                     <img class="advantages__item-img" src="./assets/img/Advantages/1.svg" alt="Представительство компании в Европе">
                     <h3 class="advantages__item-title">Представительство компании в Европе</h3>
                     <p class="advantages__item-text">В разных странах мира компания открывает собсвенные представительства.</p>
-                    <button class="advantages__item-btn">Подробнее →</button>
                 </li>
                 <li class="advantages__item">
                     <img class="advantages__item-img" src="./assets/img/Advantages/2.svg" alt="Мгновенный ввод и вывод средств">
                     <h3 class="advantages__item-title">Мгновенный ввод и вывод средств</h3>
                     <p class="advantages__item-text">0% комиссия с депозита</p>
-                    <button class="advantages__item-btn">Подробнее →</button>
                 </li>
                 <li class="advantages__item">
                     <img class="advantages__item-img" src="./assets/img/Advantages/3.svg" alt="Кредитное плечо до 1:1000">
                     <h3 class="advantages__item-title">Кредитное плечо до 1:1000</h3>
                     <p class="advantages__item-text"></p>
-                    <button class="advantages__item-btn">Подробнее →</button>
                 </li>
                 <li class="advantages__item">
                     <img class="advantages__item-img" src="./assets/img/Advantages/4.svg" alt="Время выполнения заказа - 30 мс">
                     <h3 class="advantages__item-title">Время выполнения заказа - 30 мс</h3>
                     <p class="advantages__item-text">Средний показатель по отрасли - 500 мс</p>
-                    <button class="advantages__item-btn">Подробнее →</button>
                 </li>
                 <li class="advantages__item">
                     <img class="advantages__item-img" src="./assets/img/Advantages/1.svg" alt="250 торговых инструментов">
                     <h3 class="advantages__item-title">250 торговых инструментов</h3>
                     <p class="advantages__item-text">Валютные пары, акции, металлы, индексы, облигации</p>
-                    <button class="advantages__item-btn">Подробнее →</button>
                 </li>
                 <li class="advantages__item">
                     <img class="advantages__item-img" src="./assets/img/Advantages/2.svg" alt="Счета в евро, рублях, долларах США">
                     <h3 class="advantages__item-title">Счета в евро, рублях, долларах США</h3>
                     <p class="advantages__item-text">Пополните свой счет и сэкономьте на сборах за конвертацию</p>
-                    <button class="advantages__item-btn">Подробнее →</button>
                 </li>
                 <li class="advantages__item">
                     <img class="advantages__item-img" src="./assets/img/Advantages/3.svg" alt="15% бонус на первый депозит">
                     <h3 class="advantages__item-title">15% бонус на первый депозит</h3>
                     <p class="advantages__item-text">Может использоваться в торговле и во время просадки</p>
-                    <button class="advantages__item-btn">Подробнее →</button>
                 </li>
                 <li class="advantages__item">
                     <img class="advantages__item-img" src="./assets/img/Advantages/4.svg" alt="Инновационная торговая платформа МТ5">
                     <h3 class="advantages__item-title">Инновационная торговая платформа МТ5</h3>
                     <p class="advantages__item-text">Доступно на IOS и Android</p>
-                    <button class="advantages__item-btn">Подробнее →</button>
                 </li>
             </ul>
         </div>
@@ -237,10 +239,12 @@
         <div class="container">
             <div class="portfolio__inner">
                 <img class="portfolio__img" src="./assets/img/Portfolio/img.png" alt="Картинка">
-                <div class="portfolio__content">
-                    <h2 class="portfolio__title">Подберите индивидуальный инвестиционный портфель</h2>
-                    <p class="portfolio__text">Покупайте российские и иностранные акции, облигации, валюту и другие продукты в простом и удобном мобильном приложении для iOS и Android</p>
-                    <button class="portfolio__btn btn">Получить портфель</button>
+                <div class="portfolio__wrapper">
+                    <div class="portfolio__content">
+                        <h2 class="portfolio__title">Подберите индивидуальный инвестиционный портфель</h2>
+                        <p class="portfolio__text">Покупайте российские и иностранные акции, облигации, валюту и другие продукты в простом и удобном мобильном приложении для iOS и Android</p>
+                        <button class="portfolio__btn btn">Получить каталог</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -263,7 +267,7 @@
             </ul>
         </div>
     </section>
-    <section class="devices-section">
+    <!-- <section class="devices-section">
         <div class="container">
             <div class="devices__inner">
                 <div class="devices__top">
@@ -278,8 +282,8 @@
             </div>
             <img class="devices__bottom-img" src="./assets/img/Cards/img_2.jpg" alt="Режимы">
         </div>
-    </section>
-    <section class="phone-section">
+    </section> -->
+    <!-- <section class="phone-section">
         <div class="container">
             <div class="phone__inner">
                 <img class="phone__img" src="./assets/img/Phone/img.png" alt="Телефоны">
@@ -299,8 +303,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="faq-section">
+    </section> -->
+    <!-- <section class="faq-section" id="faq">
         <div class="container">
             <div class="faq__inner">
                 <div class="faq-left">
@@ -372,8 +376,8 @@
                 </ul>
             </div>
         </div>
-    </section>
-    <section class="request-section">
+    </section> -->
+    <!-- <section class="request-section" id="request">
         <div class="container">
             <h2 class="request__title">Оставьте заявку на открытие счёта</h2>
             <ul class="request__list">
@@ -408,8 +412,8 @@
                 <button class="request-form__btn btn">Оставить заявку</button>
             </form>
         </div>
-    </section>
-    <footer class="footer">
+    </section> -->
+    <!-- <footer class="footer" id="footer">
         <div class="container">
             <div class="footer__inner">
                 <div class="footer-left">
@@ -441,7 +445,58 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
+
+    <div class="catalog-modal modal">
+        <div class="catalog-modal__box modal__box">
+            <div class="catalog-modal__success modal-success">
+                <h2 class="catalog-modal__success-title modal-success__title">Заявка отправлена!</h2>
+                <p class="catalog-modal__success-text modal-success__text">Каталог отправлен на {email}</p>
+            </div>
+
+            <div class="catalog-modal__main">
+                <h2 class="catalog-modal__title modal__title">Получить каталог</h2>
+                <p class="catalog-modal__text modal__text">Оставьте заявку для получения подарка</p>
+
+                <form class="catalog-modal__form modal-form">
+                    <input class="catalog-modal__input modal-form__input" type="text" placeholder="Имя Фамилия">
+                    <input class="catalog-modal__input modal-form__input" type="email" placeholder="Почта">
+                    <input class="catalog-modal__input modal-form__input" type="text" placeholder="+7 999 999 99 99">
+                    <span class="catalog-modal__error modal-form__error">Заполните все поля!</span>
+                    <button class="catalog-modal__submit-btn modal-form__btn btn">Оставить заявку</button>
+                </form>
+            </div>
+
+            <button class="catalog-modal__close-btn modal__close-btn">
+                <img src="./assets/img/cross.svg" alt="Закрыть">
+            </button>
+        </div>
+    </div>
+    <div class="consult-modal modal">
+        <div class="consult-modal__box modal__box">
+            <div class="consult-modal__success modal-success">
+                <h2 class="consult-modal__success-title modal-success__title">Заявка отправлена!</h2>
+                <p class="consult-modal__success-text modal-success__text">В ближайшее время с Вами свяжется наш менеджер для уточнения деталей</p>
+            </div>
+
+            <div class="consult-modal__main">
+                <h2 class="consult-modal__title modal__title">Получить консультацию</h2>
+                <p class="consult-modal__text modal__text">Оставьте заявку на бесплатную консультацию</p>
+
+                <form class="consult-modal__form modal-form">
+                    <input class="consult-modal__input modal-form__input" type="text" placeholder="Имя Фамилия">
+                    <input class="consult-modal__input modal-form__input" type="email" placeholder="Почта">
+                    <input class="consult-modal__input modal-form__input" type="text" placeholder="+7 999 999 99 99">
+                    <span class="consult-modal__error modal-form__error">Заполните все поля!</span>
+                    <button class="consult-modal__submit-btn modal-form__btn btn">Оставить заявку</button>
+                </form>
+            </div>
+
+            <button class="consult-modal__close-btn modal__close-btn">
+                <img src="./assets/img/cross.svg" alt="Закрыть">
+            </button>
+        </div>
+    </div>
 
     <script src="./main.js"></script>
 </body>

@@ -1,0 +1,634 @@
+@media (max-width: 1440px) {
+    /* Ad-offer */
+    .ad-offer__text {
+        max-width: 500px;
+    }
+
+    /* Hero */
+    .hero__title {
+        font-size: 60px;
+    }
+
+    .hero__text {
+        font-size: 28px;
+    }
+
+    /* Tools */
+    .tools-section, .instruction-section, .bonus-section, .advantages-section, .portfolio-section {
+        padding-top: 160px;
+    }
+
+    .tools__title {
+        font-size: 52px;
+        margin-bottom: 50px;
+    }
+
+    /* Instruction */
+    .instruction__title {
+        font-size: 52px;
+        margin-bottom: 20px;
+    }
+
+    .instruction__text {
+        font-size: 20px;
+        margin-bottom: 80px;
+    }
+
+    .instruction__item {
+        flex-basis: 100%;
+    }
+
+    .instruction__item-title {
+        font-size: 26px;
+        margin: 10px 0 20px;
+    }
+
+    .instruction__item-text {
+        font-size: 18px;
+    }
+
+    .instruction__item-number {
+        display: none;
+    }
+
+    /* Advantages */
+    .advantages__title {
+        margin-bottom: 50px;
+    }
+
+    .advantages__list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .advantages__item {
+        padding: 30px;
+    }
+
+    /* Portfolio */
+    .portfolio__inner {
+        gap: 60px;
+    }
+
+    .portfolio__title {
+        font-size: 42px;
+        margin-bottom: 15px;
+    }
+
+    .portfolio__text {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .portfolio__img {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 960px) {
+    /* Header */
+    .header-left__logo > img {
+        width: 110px;
+    }
+
+    .header__list {
+        gap: 20px;
+    }
+
+    .header__btn {
+        padding: 15px 30px;
+        border-radius: 10px;
+    }
+
+    /* Ad-offer */
+    .ad-offer__text {
+        max-width: 440px;
+        font-size: 16px;
+    }
+
+    .ad-offer__time {
+        letter-spacing: 0%;
+        font-size: 26px;
+    }
+
+    .ad-offer__inner {
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    /* Hero */
+    .hero__title {
+        font-size: 52px;
+    }
+
+    .hero__texts {
+        margin-bottom: 24px;
+    }
+
+    .hero__text {
+        font-size: 22px;
+    }
+
+    /* Profitability */
+    .profitability__title {
+        font-size: 52px;
+        max-width: 700px;
+    }
+
+    .profitability__list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        margin-bottom: 40px;
+    }
+
+    .profitability__item:nth-child(odd) {
+        margin-top: 0;
+    }
+
+    .profitability__inscription {
+        margin-bottom: 20px;
+    }
+
+    /* Tools */
+    .tools-section, .instruction-section, .bonus-section, .advantages-section, .portfolio-section {
+        padding-top: 140px;
+    }
+
+    .tools__title {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    /* Instruction */
+    .instruction__title {
+        font-size: 46px;
+    }
+
+    .instruction__text {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .instruction__list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+    }
+
+    /* Bonus */
+    .bonus__suptitle {
+        font-size: 150px;
+        margin-bottom: -60px;
+    }
+
+    .bonus__title {
+        font-size: 52px;
+    }
+
+    .bonus__text {
+        font-size: 22px;
+        margin: 20px 0 30px;
+    }
+
+    .bonus__btn {
+        width: 350px;
+        height: 90px;
+        padding: 10px;
+    }
+
+    /* Advantages */
+    .advantages__title {
+        font-size: 52px;
+        margin-bottom: 30px;
+    }
+
+    /* Portfolio */
+    .portfolio__inner {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .portfolio__img {
+        display: none;
+    }
+
+    .portfolio__content {
+        align-items: center;
+    }
+
+    .portfolio__title, .portfolio__text {
+        text-align: center;
+    }
+
+    .portfolio__title {
+        margin-bottom: 10px;
+    }
+
+    .portfolio__text {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Header */
+    .header__list {
+        display: none;
+    }
+
+    .header-left__logo > img {
+        width: 130px;
+    }
+
+    /* Hero */
+    .hero__title {
+        font-size: 44px;
+    }
+
+    .hero__text {
+        font-size: 18px;
+    }
+
+    .hero__btns {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .hero__btn {
+        padding: 25px;
+    }
+
+    /* Profitability */
+    .profitability__title {
+        font-size: 42px;
+    }
+
+    .profitability__text, .profitability__inscription {
+        font-size: 20px;
+    }
+
+    /* Instruction */
+    .instruction__title {
+        margin-bottom: 15px;
+    }
+
+    .instruction__text {
+        margin-bottom: 40px;
+    }
+
+    .instruction__list {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .instruction__item {
+        align-items: center;
+    }
+
+    .instruction__item-title {
+        margin: 8px 0 8px;
+        text-align: center;
+    }
+
+    .instruction__item-text {
+        text-align: center;
+    }
+
+    /* Bonus */
+    .bonus__suptitle {
+        font-size: 120px;
+        margin-bottom: -50px;
+    }
+
+    .bonus__title {
+        font-size: 46px;
+        max-width: 600px;
+    }
+
+    .bonus__text {
+        font-size: 20px;
+        margin: 10px 0 20px;
+    }
+
+    .bonus__btn {
+        width: 280px;
+        height: 75px;
+    }
+
+    /* Advantages */
+    .advantages__title {
+        font-size: 46px;
+        margin-bottom: 20px;
+    }
+
+    .advantages__list {
+        grid-template-columns: 1fr;
+    }
+
+    .advantages__item {
+        height: 400px;
+    }
+
+    /* Portfolio */
+    .portfolio__title {
+        font-size: 36px;
+    }
+
+    .portfolio__text {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 620px) {
+    /* Ad-offer */
+    .ad-offer__inner {
+        gap: 12px;
+    }
+
+    .ad-offer__present {
+        display: none;
+    }
+
+    /* Hero */
+    .hero__title {
+        font-size: 36px;
+    }
+
+    .hero__text {
+        font-size: 16px;
+    }
+
+    /* Profitability */
+    .profitability__title {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .profitability__text, .profitability__inscription {
+        font-size: 18px;
+    }
+
+    .profitability__inscription {
+        margin-bottom: 20px;
+    }
+
+    .profitability__list {
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 60px;
+    }
+
+    /* Tools */
+    .tools-section, .instruction-section, .bonus-section {
+        padding-top: 60px;
+    }
+
+    .tools__title {
+        margin-bottom: 20px;
+    }
+
+    /* Instruction */
+    .instruction__title {
+        font-size: 36px;
+    }
+
+    /* Bonus */
+    .bonus__btns {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .bonus__btn {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Advantages */
+    .advantages__title {
+        font-size: 36px;
+    }
+
+    .advantages__item {
+        height: 360px;
+    }
+
+    /* Portfolio */
+    .portfolio__title {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .portfolio__text {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Header */
+    .header-left__logo > img {
+        width: 110px;
+    }
+
+    .header__btn {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* Ad-offer */
+    .ad-offer__title {
+        font-weight: 400;
+    }
+
+    .ad-offer__text {
+        font-size: 14px;
+    }
+
+    .ad-offer__time {
+        font-size: 20px;
+    }
+
+    /* Hero */
+    .hero__title {
+        font-size: 32px;
+    }
+
+    .hero__texts {
+        font-size: 14px;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+
+    .hero__btn {
+        padding: 20px;
+    }
+
+    .hero-bottom__item > img {
+        width: 60px;
+        min-width: 60px;
+        max-width: 60px;
+        height: 60px;
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    .hero-bottom__text {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 140%;
+    }
+
+    .hero-bottom__item:nth-child(2), .hero-bottom__item:nth-child(3) {
+        margin-left: -40px;
+    }
+
+    /* Profitability */
+    .profitability__title {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .profitability__text, .profitability__inscription {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    /* Tools */
+    .tools__title {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    /* Instruction */
+    .instruction__title {
+        font-size: 32px;
+    }
+
+    .instruction__text {
+        font-size: 16px;
+    }
+
+    .instruction__item-title {
+        font-size: 20px;
+    }
+
+    .instruction__item-text {
+        font-size: 16px;
+    }
+
+    /* Bonus */
+    .bonus__suptitle {
+        font-size: 90px;
+        margin-bottom: -40px;
+    }
+
+    .bonus__title {
+        font-size: 36px;
+    }
+
+    .bonus__text {
+        font-size: 16px;
+    }
+
+    .bonus__btn {
+        height: 70px;
+    }
+
+    /* Advantages */
+    .advantages__title {
+        font-size: 32px;
+    }
+
+    .advantages__item {
+        padding: 20px;
+    }
+
+    /* Portfolio */
+    .portfolio__title {
+        font-size: 24px;
+    }
+
+    .portfolio__text {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .portfolio__btn {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    /* Profitability */
+    .profitability__title {
+        font-size: 26px;
+    }
+
+    .profitability__text, .profitability__inscription {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .profitability__list {
+        grid-template-columns: 1fr;
+        margin-bottom: 40px;
+        gap: 15px;
+    }
+
+    /* Instruction */
+    .instruction__title {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .instruction__text {
+        margin-bottom: 25px;
+    }
+
+    .instruction__list {
+        gap: 15px;
+    }
+
+    .instruction__item-title {
+        font-size: 18px;
+    }
+
+    .instruction__item-text {
+        font-size: 14px;
+    }
+
+    /* Bonus */
+    .bonus__suptitle {
+        font-size: 80px;
+    }
+
+    .bonus__title {
+        font-size: 26px;
+    }
+
+    .bonus__text {
+        font-size: 14px;
+    }
+
+    .bonus__btns {
+        gap: 10px;
+    }
+
+    .bonus__btn {
+        font-size: 18px;
+        height: 65px;
+    }
+
+    /* Advantages */
+    .advantages__title {
+        font-size: 26px;
+    }
+
+    /* Portfolio */
+    .portfolio__title {
+        font-size: 22px;
+    }
+
+    .portfolio__text {
+        font-size: 12px;
+    }
+}
