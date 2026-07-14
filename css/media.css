@@ -14,7 +14,8 @@
     }
 
     /* Tools */
-    .tools-section, .instruction-section, .bonus-section, .advantages-section, .portfolio-section {
+    .tools-section, .instruction-section, .bonus-section, .advantages-section, .portfolio-section, .devices-section,
+    .phone-section,.faq-section, .request-section {
         padding-top: 160px;
     }
 
@@ -83,6 +84,104 @@
     .portfolio__img {
         max-width: 600px;
     }
+
+    /* Cards */
+    .cards__item {
+        gap: 15px;
+    }
+
+    .cards__item-title {
+        font-size: 52px;
+    }
+
+    .cards__item-text {
+        font-size: 22px;
+    }
+
+    /* Devices */
+    .devices__title {
+        font-size: 52px;
+    }
+
+    .devices__text {
+        font-size: 22px;
+    }
+
+    /* Phone */
+    .phone__inner {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .phone__title {
+        font-size: 52px;
+        text-align: center;
+    }
+
+    .phone__text {
+        font-size: 22px;
+        text-align: center;
+        margin: 15px 0 30px;
+    }
+
+    .phone__btns {
+        margin: 0 auto;
+    }
+
+    /* Faq */
+    .faq__inner {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .faq-left {
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .faq-left__title {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .faq-left__text {
+        text-align: center;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    .faq__list {
+        gap: 40px;
+    }
+
+    .faq__item {
+        justify-content: center;
+    }
+
+    .faq__item-title {
+        font-size: 32px;
+    }
+
+    /* Request */
+    .request__list {
+        display: none;
+    }
+
+    .request__title {
+        font-size: 52px;
+    }
+
+    .request-form__input {
+        padding: 25px;
+    }
+
+    .request__title {
+        margin-bottom: 50px;
+    }
+
+    .request-form {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 960px) {
@@ -150,7 +249,8 @@
     }
 
     /* Tools */
-    .tools-section, .instruction-section, .bonus-section, .advantages-section, .portfolio-section {
+    .tools-section, .instruction-section, .bonus-section, .advantages-section, .portfolio-section, .cards-section,
+    .devices-section, .phone-section, .faq-section {
         padding-top: 140px;
     }
 
@@ -226,6 +326,82 @@
 
     .portfolio__text {
         margin-bottom: 30px;
+    }
+
+    /* Cards */
+    .cards__list {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .cards__item {
+        gap: 2px;
+    }
+
+    .cards__item-title {
+        font-size: 62px;
+    }
+
+    .cards__item-text {
+        font-size: 24px;
+    }
+
+    /* Devices */
+    .devices__top {
+        grid-template-columns: 1fr;
+    }
+
+    .devices__title, .devices__text {
+        text-align: center;
+    }
+
+    .devices__content {
+        gap: 15px;
+    }
+
+    /* Faq */
+    .faq__inner {
+        gap: 60px;
+    }
+
+    .faq-left__title {
+        font-size: 52px;
+    }
+
+    .faq-left__text {
+        font-size: 20px;
+    }
+
+    .faq__item {
+        gap: 40px;
+    }
+
+    .faq__item-wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .faq__item-title {
+        font-size: 24px;
+    }
+
+    .faq__item-text {
+        font-size: 16px;
+    }
+
+    .faq__item-question-img {
+        display: none;
+    }
+
+    /* Request */
+    .request__title {
+        font-size: 38px;
+        margin-bottom: 30px;
+    }
+
+    .request-form__input, .request-form__btn {
+        font-size: 20px;
+        padding: 20px;
     }
 }
 
@@ -337,6 +513,43 @@
         font-size: 18px;
         margin-bottom: 20px;
     }
+
+    /* Devices */
+    .devices__title {
+        font-size: 38px;
+    }
+
+    .devices__text {
+        font-size: 20px;
+    }
+
+    /* Phone */
+    .phone__title {
+        font-size: 38px;
+    }
+
+    .phone__text {
+        font-size: 20px;
+    }
+
+    /* Faq */
+    .faq-left__title {
+        font-size: 38px;
+    }
+
+    .faq-left__text {
+        font-size: 20px;
+    }
+
+    /* Request */
+    .request__title {
+        font-size: 36px;
+    }
+
+    .request-form {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
 }
 
 @media (max-width: 620px) {
@@ -378,7 +591,8 @@
     }
 
     /* Tools */
-    .tools-section, .instruction-section, .bonus-section {
+    .tools-section, .instruction-section, .bonus-section, .advantages-section, .portfolio-section, .cards-section, .devices-section,
+    .phone-section, .faq-section, .request-section, .footer {
         padding-top: 60px;
     }
 
@@ -420,6 +634,84 @@
     .portfolio__text {
         font-size: 16px;
         margin-bottom: 15px;
+    }
+
+    /* Cards */
+    .cards__list {
+        gap: 30px;
+    }
+
+    .cards__item-title {
+        font-size: 46px;
+    }
+
+    .cards__item-text {
+        font-size: 20px;
+    }
+
+    /* Devices */
+    .devices__title {
+        font-size: 28px;
+    }
+
+    .devices__text {
+        font-size: 18px;
+    }
+
+    .devices__content {
+        gap: 10px;
+    }
+
+    .devices__bottom-img {
+        display: none;
+    }
+
+    /* Phone */
+    .phone__title {
+        font-size: 28px;
+    }
+
+    .phone__text {
+        font-size: 18px;
+        margin: 10px 0 20px;
+    }
+
+    .phone__btns {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .phone__btn {
+        width: 100%;
+    }
+
+    /* Request */
+    .request__title {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .request-form {
+        gap: 10px;
+    }
+
+    .request-form__input, .request-form__btn {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    /* Footer */
+    .footer__inner {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer-left {
+        gap: 10px;
+    }
+
+    .footer-right__phone {
+        margin: 5px 0 10px;
     }
 }
 
@@ -555,6 +847,83 @@
     .portfolio__btn {
         font-size: 16px;
     }
+
+    /* Cards */
+    .cards__list {
+        gap: 20px;
+    }
+
+    .cards__item-title {
+        font-size: 38px;
+    }
+
+    .cards__item-text {
+        font-size: 18px;
+    }
+
+    /* Devices */
+    .devices__title {
+        font-size: 26px;
+    }
+
+    .devices__text {
+        font-size: 16px;
+    }
+
+    /* Phone */
+    .phone__title {
+        font-size: 26px;
+    }
+
+    .phone__text {
+        font-size: 16px;
+    }
+
+    .phone__btn {
+        padding: 10px;
+        height: 60px;
+    }
+
+    /* Faq */
+    .faq__inner {
+        gap: 40px;
+    }
+
+    .faq-left__title {
+        font-size: 26px;
+        margin-bottom: 2px;
+    }
+
+    .faq-left__text {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .faq__list {
+        gap: 20px;
+    }
+
+    .faq__item-title {
+        font-size: 20px;
+    }
+
+    .faq__item-text {
+        font-size: 14px;
+    }
+
+    .faq-left__btn {
+        font-size: 16px;
+        padding: 20px 30px;
+    }
+
+    /* Request */
+    .request__title {
+        font-size: 24px;
+    }
+
+    .request-form__input, .request-form__btn {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -630,5 +999,36 @@
 
     .portfolio__text {
         font-size: 12px;
+    }
+
+    /* Devices */
+    .devices__title {
+        font-size: 24px;
+    }
+
+    .devices__text {
+        font-size: 14px;
+    }
+
+    .devices__content {
+        gap: 8px;
+    }
+
+    /* Phone */
+    .phone__title {
+        font-size: 24px;
+    }
+
+    .phone__text {
+        margin: 5px 0 10px;
+        font-size: 14px;
+    }
+
+    .phone__btns {
+        gap: 10px;
+    }
+
+    .phone__btn {
+        font-size: 14px;
     }
 }

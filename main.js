@@ -30,6 +30,7 @@ const closeConsultModalArgs = [consultModal, consultModalFormInputs, consultModa
 const closeAllModalArgs = [closeCatalogModalArgs, closeConsultModalArgs];
 
 const faqItemTitles = document.querySelectorAll(".faq__item-title");
+const faqItems = document.querySelectorAll(".faq__item");
 const faqItemTexts = document.querySelectorAll(".faq__item-text");
 
 // Modal
@@ -165,8 +166,8 @@ consultModalForm.addEventListener("submit", (e) => {
 // FaqItemTexts
 faqItemTexts.forEach(text => text.classList.add("none"));
 
-faqItemTitles.forEach((title, index) => {
-    title.addEventListener("click", () => {
+faqItems.forEach((item, index) => {
+    item.addEventListener("click", () => {
         const textByIndex = faqItemTexts[index];
         
         if(textByIndex.classList.contains("none")) {
