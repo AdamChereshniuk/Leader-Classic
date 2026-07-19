@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
+    <script src="./main.js" defer></script>
     <title>Leader Classic</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
                 <div class="header__nav">
                     <ul class="header__list">
                         <li class="header__item">
-                            <a href="#main">Главная</a>
+                            <a href="/">Главная</a>
                         </li>
                         <li class="header__item">
                             <a href="#bonus">Бонус</a>
@@ -55,7 +56,7 @@
             </div>
         </div>
     </section>
-    <section class="hero-section" id="main">
+    <section class="hero-section">
         <div class="container">
             <div class="hero__inner">
                 <h1 class="hero__title">ТОП-5 акций с доходностью до 10-30% уже в 2022 году</h1>
@@ -292,12 +293,16 @@
                     <p class="phone__text">Покупайте российские и иностранные акции, облигации, валюту и другие продукты в простом и удобном мобильном приложении для iOS и Android.</p>
                     <div class="phone__btns">
                         <button class="phone__btn phone__ios-btn">
-                            <img src="./assets/img/Phone/apple.svg" alt="Apple">
-                            Скачать для IOS
+                            <a href="/">
+                                <img src="./assets/img/Phone/apple.svg" alt="Apple">
+                                Скачать для IOS
+                            </a>
                         </button>
                         <button class="phone__btn phone__android-btn">
-                            <img src="./assets/img/Phone/android.svg" alt="Android">
-                            Скачать для Android
+                            <a href="/">
+                                <img src="./assets/img/Phone/android.svg" alt="Android">
+                                Скачать для Android
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -423,20 +428,30 @@
 
                     <ul class="footer-left__list">
                         <li class="footer-left__item">
-                            <img src="./assets/img/Footer/1.svg" alt="Instagram">
+                            <a href="/">
+                                <img src="./assets/img/Footer/1.svg" alt="Instagram">
+                            </a>
                         </li>
                         <li class="footer-left__item">
-                            <img src="./assets/img/Footer/1.svg" alt="Facebook">
+                            <a href="/">
+                                <img src="./assets/img/Footer/2.svg" alt="Facebook">
+                            </a>
                         </li>
                         <li class="footer-left__item">
-                            <img src="./assets/img/Footer/1.svg" alt="Vk">
+                            <a href="/">
+                                <img src="./assets/img/Footer/3.svg" alt="Vk">
+                            </a>
                         </li>
                         <li class="footer-left__item">
-                            <img src="./assets/img/Footer/1.svg" alt="YouTube">
+                            <a href="/">
+                                <img src="./assets/img/Footer/4.svg" alt="YouTube">
+                            </a>
                         </li>
                     </ul>
 
-                    <button class="footer-left__btn">Политика передачи данных</button>
+                    <button class="footer-left__btn">
+                        <a href="/policy.html">Политика передачи данных</a>
+                    </button>
                 </div>
                 <div class="footer-right">
                     <span class="footer-right__text">Звонок по России бесплатный</span>
@@ -497,7 +512,5 @@
             </button>
         </div>
     </div>
-
-    <script src="./main.js"></script>
 </body>
 </html>

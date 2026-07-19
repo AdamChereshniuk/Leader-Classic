@@ -723,7 +723,6 @@ a {
 .faq__item {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: 80px;
     cursor: pointer;
 }
@@ -1013,4 +1012,22 @@ a {
 }
 .consult-modal.open .consult-modal__box {
     transform: scale(1);
+}
+
+/* Policy */
+.policy-section {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.policy__title {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.policy__text {
+    font-size: 18px;
+    line-height: 150%;
 }

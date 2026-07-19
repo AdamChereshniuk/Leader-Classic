@@ -403,6 +403,20 @@
         font-size: 20px;
         padding: 20px;
     }
+
+    /* Policy */
+    .policy-section {
+        padding: 80px 0;
+    }
+
+    .policy__title {
+        font-size: 42px;
+        margin-bottom: 30px;
+    }
+
+    .policy__text {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -549,6 +563,20 @@
     .request-form {
         grid-template-columns: 1fr;
         gap: 15px;
+    }
+
+    /* Policy */
+    .policy-section {
+        padding: 60px 0;
+    }
+
+    .policy__title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .policy__text {
+        font-size: 14px;
     }
 }
 
@@ -713,6 +741,39 @@
     .footer-right__phone {
         margin: 5px 0 10px;
     }
+
+    /* Modal */
+    .modal__box {
+        padding: 30px;
+    }
+
+    .modal__close-btn {
+        display: none;
+    }
+
+    .modal__title {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .modal__text {
+        margin-bottom: 20px;
+    }
+
+    .modal-form__input {
+        padding: 15px;
+        font-size: 18px;
+        border-width: 2px;
+    }
+
+    .modal-form {
+        gap: 16px;
+    }
+
+    .modal-form__btn {
+        font-size: 20px;
+        padding: 15px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -834,6 +895,14 @@
         padding: 20px;
     }
 
+    .advantages__item-title {
+        font-size: 24px;
+    }
+
+    .advantages__item-text {
+        font-size: 20px;
+    }
+
     /* Portfolio */
     .portfolio__title {
         font-size: 24px;
@@ -923,6 +992,29 @@
 
     .request-form__input, .request-form__btn {
         font-size: 16px;
+    }
+
+    /* Modal */
+    .modal__title {
+        font-size: 24px;
+    }
+
+    .modal-form__input {
+        font-size: 16px;
+    }
+
+    .modal-form__btn {
+        font-size: 18px;
+    }
+
+    /* Policy */
+    .policy__section {
+        padding: 40px;
+    }
+
+    .policy__title {
+        font-size: 30px;
+        margin-bottom: 15px;
     }
 }
 
@@ -1030,5 +1122,22 @@
 
     .phone__btn {
         font-size: 14px;
+    }
+
+    /* Modal */
+    .modal__box {
+        padding: 20px;
+    }
+
+    .modal__title {
+        font-size: 22px;
+    }
+
+    .modal__text {
+        font-size: 15px;
+    }
+
+    .modal-form {
+        gap: 8px;
     }
 }

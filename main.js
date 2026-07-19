@@ -4,6 +4,7 @@ const heroDownloadBtn = document.querySelector(".hero__download-btn");
 const profitabilityBtn = document.querySelector(".profitability__btn");
 const portfolioBtn = document.querySelector(".portfolio__btn");
 const faqLeftBtn = document.querySelector(".faq-left__btn");
+const footerRightBtn = document.querySelector(".footer-right__btn");
 
 const catalogModal = document.querySelector(".catalog-modal");
 const catalogModalBox = document.querySelector(".catalog-modal .catalog-modal__box");
@@ -109,7 +110,7 @@ catalogModalForm.addEventListener("submit", (e) => {
 consultModalSuccess.classList.add("none");
 consultModalFormError.classList.add("none");
 
-[faqLeftBtn].forEach(btn => btn.addEventListener("click", () => consultModal.classList.add("open")));
+[faqLeftBtn, footerRightBtn].forEach(btn => btn.addEventListener("click", () => consultModal.classList.add("open")));
 consultModalBox.addEventListener("click", (e) => e._isClickWithInModal = true);
 consultModalCloseBtn.addEventListener("click", closeAllModals);
 consultModal.addEventListener("click", (e) => {
